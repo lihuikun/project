@@ -8,3 +8,10 @@ demo2：进度条\
 
 demo3：transform: translateX(0)使用\
 ![](README_files/2.png)
+
+demo5:\
+修改图片颜色为黑白 (100% 灰度):style.filter\
+让 DIV 元素半透明：style.opacity
+
+demo6:box.getBoundingClientRect().top
+给box设置右边400，然后单数的设置-400px，监听窗口滑动就变为0px
