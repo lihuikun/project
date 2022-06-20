@@ -15,3 +15,18 @@ demo5:\
 
 demo6:box.getBoundingClientRect().top
 给box设置右边400，然后单数的设置-400px，监听窗口滑动就变为0px
+
+demo7：监听鼠标在图片上，使其宽度变为75%，另外一个变为25%
+
+demo8：labels.forEach(label => {
+				label.innerHTML = label.innerText
+					.split('')
+					.map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}</span>`)
+					.join('')
+			})
+遍历邮箱和密码的每个单词按时间添加一个动效
+
+demo9：点击播放mp3，遍历所有暂停，然后给点击的btn播放对应的音频
+
+demo10：jokeEl.innerHTML，接口获取数据后将其文本替换
+
