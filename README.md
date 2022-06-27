@@ -30,3 +30,9 @@ demo9：点击播放mp3，遍历所有暂停，然后给点击的btn播放对应
 
 demo10：jokeEl.innerHTML，接口获取数据后将其文本替换
 
+demo11：监听键盘，event.keyCode（13），event.code（enther）
+
+demo12：classList.toggle( className )：如果classList中存在给定的值，删除它，否则，添加它；
+
+demo13：一个输入框获取value值，遍历有逗号就分开appendChild生成，然后定时器，随机一个子元素闪烁
+
